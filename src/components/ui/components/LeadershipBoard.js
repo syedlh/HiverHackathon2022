@@ -25,7 +25,7 @@ export const LeadershipBoard = ({ user = [] }) => {
                                     <div className='percentage' style={{ width: pointPerentage }} />
                                 </div>
                                 <div className='pointsValue'>
-                                    {Number(item.point).toFixed(2)} points
+                                    {Number(item.point)} points
                                 </div>
                             </li>
                         );
