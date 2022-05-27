@@ -3,124 +3,83 @@ body {
     color: #555;
 }
 
-.todolist {
-    background-color: #FFF;
-    padding: 20px 20px 10px 20px;
-    width: 600px;
-    margin: 30px auto;
-    border: 1px solid #ddd;
-    border-radius: 2px;
-    position: relative;
+.backgroundColor{
+    background-color: lightgrey;
+    height: 100vh;
+    background-image: url('https://media.istockphoto.com/photos/orange-dust-particles-explosion-on-black-background-color-powder-dust-picture-id1068792646?b=1&k=20&m=1068792646&s=170667a&w=0&h=8IFXTCu4asIFW1XTPwSjaqTrDx89azsf7PtEYWk_LM4=');
 }
 
-.todolist h1 {
-    margin: 0;
-    padding-bottom: 20px;
-    text-align: center;
-    text-transform: uppercase;
+.wrapper{
+    width: 100%;
+    padding-top: 70px;
 }
 
-.todolist .info {
-    position: absolute;
-    margin-top: 20px;
-    left: 0;
-    right: 0;
-    color: #999;
-    text-align: center;
+.heading{
+    background-color: #fc7860;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    width: 40vw;
+    height: 40px;
+    color: white;
 }
 
-.form-control {
-    border-radius: 0;
+.bodyContent{
+    max-height: 400px;
+    display: flex;
+    justify-content: center;
 }
 
-li.ui-state-default {
-    background: #fff;
-    border: none;
-    border-bottom: 1px solid #ddd;
+.ulClass{
+    list-style-type: none;
+    margin-left: -40px;
+    margin-bottom: 0;
 }
 
-li.ui-state-default:last-child {
-    border-bottom: none;
+.liClass{
+    height: 60px;
+    width: 40vw;
+    background-color: #3b3c4f;
+    border-bottom: 1px solid #5b5959;
+    color: white;
+    display: flex;
+    align-items: center;
 }
 
-li.completed label {
-    text-decoration: line-through;
-    color: #aaa;
+.profileimage{
+    height: 40px;
+    width: 8%;
+    border-radius: 50%;
+    margin: 0 15px 0 10px;
 }
 
-footer {
-    border-top: 1px solid #ddd;
-    background-color: #F4FCE8;
-    margin: 0 -20px -10px -20px;
-    padding: 12px 20px;
-    position: relative;
-    color: #777;
+.itemName{
+    display: block;
 }
 
-.filters {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+.spanClass{
+    color: #fc7860;
+    margin-right: 4px;
 }
 
-.filters li {
-    display: inline-block;
+.FlexBoxWrapper{
+    display: flex;
 }
 
-.filters li a {
-    cursor: pointer;
-    color: inherit;
-    margin: 3px;
-    padding: 4px 8px;
-    text-decoration: none;
-    border: 1px solid transparent;
-    border-radius: 3px;
+.centercontent{
+    width: 70%;
 }
 
-.filters li a.selected, .filters li a:hover {
-    border-color: rgba(175, 47, 47, 0.1);
+.percentage{
+    border: 2px solid #fc7860;
+    margin-top: 5px;
+    margin-right: 5px;
 }
 
-.filters li a.selected {
-    border-color: rgba(175, 47, 47, 0.2);
-    color: #555;
-}
-
-footer .buttons {
-    border-right: 1px solid #ccc;
-    margin-right: 15px;
-    padding-right: 10px;
-    height: 20px;
-}
-
-.buttons .button {
-    display: inline-block;
-    margin: 0 5px;
-    height: 18px;
-    width: 18px;
-    cursor: pointer;
-    opacity: 0.5;
-    transition: 0.3s all;
-}
-
-.buttons .button:hover, .buttons .button.selected {
-    opacity: 1;
-    border-color: #ddd;
-}
-
-.buttons .add {
-    background: url(../images/add.svg) no-repeat center;
-}
-
-.buttons .search {
-    background: url(../images/search.svg) no-repeat center;
-}
-
-.alert.alert-info {
-    margin: 10px 0;
-    padding: 10px;
-    border-radius: 0;
-    background: #f2f2f2;
-    border: 1px solid rgba(229, 229, 229, 0.5);
-    color: #888;
+.pointsValue{
+    color: white;
+    width: 20%;
+    justify-content: center;
+    display: flex;
 }
